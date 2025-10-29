@@ -1,0 +1,9 @@
+# indiquer (sur 3 lignes) le nom de la pièce, de la salle et l'heure de la représentation
+Pizza Toute Garnie
+Salle Jean-Louis Millette
+Samedi 18 avril 14:00
+# indiquer les sièges (A1, B2...) qui sont reservés (1 par ligne)
+A1
+B5
+B7
+B9
