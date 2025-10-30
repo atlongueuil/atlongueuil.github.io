@@ -1,9 +1,121 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgray;
+    background-color: #f0f0f0; /* Lighter gray */
+    color: #333;
+    margin: 0;
 }
 
 h1 {
     color: navy;
     text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: navy;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    text-align: center;
+}
+
+main p img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the text in a 'p' tag that also contains an image, to act as a caption */
+main p:has(img) {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+a[href*="facebook.com"] {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1877f2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+a[href*="facebook.com"]:hover {
+    background-color: #166fe5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
 }
